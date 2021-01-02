@@ -1,6 +1,6 @@
 # test
 ---
-_Advertisement :)____
+_Advertisement :)_
 
-- ___[pica]
-(https://nodeca.github.io/pica/demo/)___ - high quality and fast image resize in browser. 
+- _[pica]
+(https://nodeca.github.io/pica/demo/)_ - high quality and fast image resize in browser. 
