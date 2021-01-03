@@ -64,5 +64,8 @@ __This is bold test__
 |영희   | 50   | 분발하세요. |
             
             
+<script type="text/javascript" 
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
+</script>
 $$f(x)= if x < x_[min] : (x/x_[min])^a$$             
 
