@@ -64,61 +64,26 @@ __This is bold test__
 |영희   | 50   | 분발하세요. |
             
             
-<script type="text/javascript" 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
-</script>
-(function () {
-  var newMathJax = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js';
-  var oldMathJax = 'cdn.mathjax.org/mathjax/latest/MathJax.js';
+<U>밑줄</u>
 
-  var replaceScript = function (script, src) {
-    //
-    //  Make redirected script
-    //
-    var newScript = document.createElement('script');
-    newScript.src = newMathJax + src.replace(/.*?(\?|$)/, '$1');
-    //
-    //  Move onload and onerror handlers to new script
-    //
-    newScript.onload = script.onload; 
-    newScript.onerror = script.onerror;
-    script.onload = script.onerror = null;
-    //
-    //  Move any content (old-style configuration scripts)
-    //
-    while (script.firstChild) newScript.appendChild(script.firstChild);
-    //
-    //  Copy script id
-    //
-    if (script.id != null) newScript.id = script.id;
-    //
-    //  Replace original script with new one
-    //
-    script.parentNode.replaceChild(newScript, script);
-    //
-    //  Issue a console warning
-    //
-    console.warn('WARNING: cdn.mathjax.org has been retired. Check https://www.mathjax.org/cdn-shutting-down/ for migration tips.')
-  }
+-[] 작업목록
 
-  if (document.currentScript) {
-    var script = document.currentScript;
-    replaceScript(script, script.src);
-  } else {
-    //
-    // Look for current script by searching for one with the right source
-    //
-    var n = oldMathJax.length;
-    var scripts = document.getElementsByTagName('script');
-    for (var i = 0; i < scripts.length; i++) {
-      var script = scripts[i];
-      var src = (script.src || '').replace(/.*?:\/\//,'');
-      if (src.substr(0, n) === oldMathJax) {
-        replaceScript(script, src);
-        break;
-      }
-    }
-  }
-})();
-$$f(x)= if x < x_[min] : (x/x_[min])^a$$             
+-[] 작업목록
+
+
+```c
+int main(int argc, char*argv[])
+{
+printf{"Hello world!\n");
+return0;
+}
+```
+
+
+
+
+
+
+
+          
 
